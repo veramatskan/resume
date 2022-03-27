@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=PT+Sans&display=swap');
+body {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    background: #FFFFF0;
+    color: rgb(75, 75, 75);
+}
+
+.container {
+    max-width: 850px;
+    margin: auto;
+    padding-top: 20px;
+}
+
+.info {
+    display: flex;
+    margin: 20px 10px;
+}
+
+@media (max-width: 800px) {
+    .info {
+        display: block;
+    }
+    .info-text {
+        text-align: center;
+    }
+}
+
+.avatar {
+    width: 240px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+    border-radius: 10%;
+}
+
+#header {
+    color: black;
+}
+
+.info-text {
+    margin: 10px
+}
+
+.info-text p {
+    font-style: italic;
+    margin-bottom: 10px;
+    text-align: justify;
+}
+
+.card {
+    border-radius: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding: 15px;
+}
+
+.bg-pink {
+    background: #ffe6e6;
+}
+
+.bg-green {
+    background: #e6ffe6;
+}
+
+.bg-blue {
+    background: #cce6ff;
+}
+
+a {
+    color: rgb(75, 75, 75);
+    text-decoration: none;
+}
+
+a:hover {
+    color: darkorange;
+}
+
+a:active {
+    color: darkred;
+}
+
+.btn {
+    background: #80bfff;
+    padding: 10px 15px;
+    color: rgb(75, 75, 75);
+    font-family: inherit;
+    font-weight: bold;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+}
+
+.btn:hover {
+    opacity: 0.9;
+}
+
+.list {
+    margin: 0;
+    padding: 0;
+}
+
+.list li {
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+.table {
+    width: 100%;
+}
+
+.table td {
+    padding-bottom: 8px;
+}
+
+.table tr:first-child {
+    font-weight: bold;
+}
+
+.table tr:nth-child(even) {
+    background: #cfe2cf;
+}
+
+.form h2 {
+    text-align: center;
+}
+
+.row {
+    margin-bottom: 10px;
+    display: flex;
+}
+
+.row .form-group {
+    width: 33%;
+    margin-right: 10px;
+}
+
+.row .form-group:last-child {
+    margin-right: 0;
+}
+
+.form-group label {
+    display: block;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid rgb(75, 75, 75);
+    color: #000;
+    outline: none;
+    font-family: inherit;
+    padding: 15px 0 10px;
+}
+
+@media (max-width: 800px) {
+    .row {
+        display: block;
+    }
+    .row .form-group {
+        width: 100%;
+        padding-right: 0;
+        margin-bottom: 10px;
+    }
+}
